@@ -1,0 +1,47 @@
+Kevin Jair Nuño Trujillo
+Progresión Cuadratica
+
+
+INFORMACION
+
+el metodo constructos llama al metodo calculateCoefficients
+
+-Variables:
+
+sumX
+sumY
+sumX2
+sumX3
+sumX4
+sumXY
+sumX2Y
+
+
+-Matriz principal se compone de lo siguiente:
+
+n,sumX,sumX2
+sumX,sumX2,sumX3
+sumX2,sumX3,sumX4
+
+-Vector se compone de:
+sumY
+sumXY
+sumX2Y
+
+-Determinante
+
+para sacar la determinante:
+
+    |a b c|
+A=  |d e f|        formula det= a(ei-fh) -b(di-fg)+c(dh-eg)
+    |g h i|
+
+-Formula general de la regresion cuadratica
+b0 + b1 * x + b2 * x * x; 
+
+main
+
+    QuadraticRegression qr = new QuadraticRegression();
+        System.out.println("Curva de Regresión: " + qr.getRegressionCurve());
+        qr.printPredictions();
+        qr.printCorrelationAndDetermination();
