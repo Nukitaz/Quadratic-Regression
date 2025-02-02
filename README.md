@@ -1,1 +1,1 @@
-This is a project of the school, exactly probability and stadistics
+This is a project (in java) of the school, exactly probability and stadistics
